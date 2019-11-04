@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'reactNativeCards' do
-  # Pods for reactNativeCards
+target 'cardsWithHooks' do
+  # Pods for cardsWithHooks
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'reactNativeCards' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'reactNativeCardsTests' do
+  target 'cardsWithHooksTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'reactNativeCards' do
   use_native_modules!
 end
 
-target 'reactNativeCards-tvOS' do
-  # Pods for reactNativeCards-tvOS
+target 'cardsWithHooks-tvOS' do
+  # Pods for cardsWithHooks-tvOS
 
-  target 'reactNativeCards-tvOSTests' do
+  target 'cardsWithHooks-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

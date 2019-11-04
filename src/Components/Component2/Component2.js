@@ -1,5 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
+import {connect} from 'react-redux';
+import {useFiveSecondMessage} from './useFiveSecondMessage';
 
 type Props = {
   cardNumber: string,
@@ -21,13 +23,19 @@ const Component2 = ({
   validationResult,
   isloading,
   cardType,
-  update,
 }) => {
+  const {update} = useFiveSecondMessage({
+    cardNumber,
+    expirationDate,
+    cvv,
+    firstName,
+    lastName,
+  });
+
   if (update && validationResult && !isloading) {
     return (
       <View style={styles.textDirect}>
         <Text style={styles.textStyle}>
-          {' '}
           Card info: ************{cardNumber.substr(12, 4)}
         </Text>
         <Text style={styles.textStyle}> Name: {firstName} </Text>
@@ -52,6 +60,21 @@ const Component2 = ({
   return null;
 };
 
+const mapStateToProps = store => {
+  return {
+    cardNumber: store.userInfo.cardNumber,
+    expirationDate: store.userInfo.expirationDate,
+    cvv: store.userInfo.cvv,
+    firstName: store.userInfo.firstName,
+    lastName: store.userInfo.lastName,
+    validationResult: store.userInfo.validationResult,
+    isloading: store.userInfo.isloading,
+    cardType: store.userInfo.cardType,
+  };
+};
+
+const Component2Container = connect(mapStateToProps)(Component2);
+
 const styles = StyleSheet.create({
   textDirect: {
     flex: 1,
@@ -63,4 +86,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component2;
+export default Component2Container;

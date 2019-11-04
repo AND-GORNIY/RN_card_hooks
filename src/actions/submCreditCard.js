@@ -75,7 +75,6 @@ export function submCreditCard(userInfo: UserInfo) {
     });
     new cardServise().sendCardInfo(userInfo).then(
       data => {
-        console.log(data);
         dispatch({type: USER_RESPONSE_SUCC, payload: data});
       },
       data => {

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* reactNativeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeCardsTests.m */; };
-		13514A0B6CA0D87C86CA28DC /* libPods-reactNativeCards-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C13CE5F4995FD98DD71CEED /* libPods-reactNativeCards-tvOSTests.a */; };
+		00E356F31AD99517003FC87E /* cardsWithHooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cardsWithHooksTests.m */; };
+		13514A0B6CA0D87C86CA28DC /* libPods-cardsWithHooks-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C13CE5F4995FD98DD71CEED /* libPods-cardsWithHooks-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* reactNativeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeCardsTests.m */; };
-		34E7562074A2F4B57AC9DCE8 /* libPods-reactNativeCards-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D06DA09E83272BC7B35244 /* libPods-reactNativeCards-tvOS.a */; };
-		C3D362BB0DAB7EFD7EC0F75D /* libPods-reactNativeCards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F21AF2B6A76E907FA0D51A7 /* libPods-reactNativeCards.a */; };
-		D326E7B489D23F5AF5C40E47 /* libPods-reactNativeCardsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 785F233A1E2E19C3114FEEAC /* libPods-reactNativeCardsTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* cardsWithHooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cardsWithHooksTests.m */; };
+		34E7562074A2F4B57AC9DCE8 /* libPods-cardsWithHooks-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D06DA09E83272BC7B35244 /* libPods-cardsWithHooks-tvOS.a */; };
+		C3D362BB0DAB7EFD7EC0F75D /* libPods-cardsWithHooks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F21AF2B6A76E907FA0D51A7 /* libPods-cardsWithHooks.a */; };
+		D326E7B489D23F5AF5C40E47 /* libPods-cardsWithHooksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 785F233A1E2E19C3114FEEAC /* libPods-cardsWithHooksTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = reactNativeCards;
+			remoteInfo = cardsWithHooks;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "reactNativeCards-tvOS";
+			remoteInfo = "cardsWithHooks-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* reactNativeCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactNativeCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* cardsWithHooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardsWithHooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* reactNativeCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactNativeCardsTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* reactNativeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactNativeCards/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactNativeCards/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* cardsWithHooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardsWithHooksTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* cardsWithHooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardsWithHooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cardsWithHooks/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cardsWithHooks/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactNativeCards/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactNativeCards/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactNativeCards/main.m; sourceTree = "<group>"; };
-		1C13CE5F4995FD98DD71CEED /* libPods-reactNativeCards-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeCards-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C3C4B93942AA0F45F22B28 /* Pods-reactNativeCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeCards/Pods-reactNativeCards.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* reactNativeCards-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactNativeCards-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* reactNativeCards-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactNativeCards-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55A18FB7B54DEB05E004CBC7 /* Pods-reactNativeCards-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactNativeCards-tvOS/Pods-reactNativeCards-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		596974276A5FC8DF7CC81222 /* Pods-reactNativeCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCardsTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeCardsTests/Pods-reactNativeCardsTests.release.xcconfig"; sourceTree = "<group>"; };
-		5AA4D665C53629FD37208EEF /* Pods-reactNativeCards-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeCards-tvOSTests/Pods-reactNativeCards-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		73D8A2B4AF710BEF31EA5F28 /* Pods-reactNativeCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeCardsTests/Pods-reactNativeCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		785F233A1E2E19C3114FEEAC /* libPods-reactNativeCardsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeCardsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F21AF2B6A76E907FA0D51A7 /* libPods-reactNativeCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeCards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2E8820D3949BCF1BECAF68E /* Pods-reactNativeCards-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeCards-tvOSTests/Pods-reactNativeCards-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		E3D06DA09E83272BC7B35244 /* libPods-reactNativeCards-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeCards-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cardsWithHooks/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cardsWithHooks/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cardsWithHooks/main.m; sourceTree = "<group>"; };
+		1C13CE5F4995FD98DD71CEED /* libPods-cardsWithHooks-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cardsWithHooks-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C3C4B93942AA0F45F22B28 /* Pods-cardsWithHooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks.debug.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks/Pods-cardsWithHooks.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* cardsWithHooks-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cardsWithHooks-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* cardsWithHooks-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cardsWithHooks-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A18FB7B54DEB05E004CBC7 /* Pods-cardsWithHooks-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks-tvOS/Pods-cardsWithHooks-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		596974276A5FC8DF7CC81222 /* Pods-cardsWithHooksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooksTests.release.xcconfig"; path = "Target Support Files/Pods-cardsWithHooksTests/Pods-cardsWithHooksTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AA4D665C53629FD37208EEF /* Pods-cardsWithHooks-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks-tvOSTests/Pods-cardsWithHooks-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73D8A2B4AF710BEF31EA5F28 /* Pods-cardsWithHooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooksTests.debug.xcconfig"; path = "Target Support Files/Pods-cardsWithHooksTests/Pods-cardsWithHooksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		785F233A1E2E19C3114FEEAC /* libPods-cardsWithHooksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cardsWithHooksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F21AF2B6A76E907FA0D51A7 /* libPods-cardsWithHooks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cardsWithHooks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E8820D3949BCF1BECAF68E /* Pods-cardsWithHooks-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks-tvOSTests/Pods-cardsWithHooks-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3D06DA09E83272BC7B35244 /* libPods-cardsWithHooks-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cardsWithHooks-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F400DABF9F7C760F069C4EDB /* Pods-reactNativeCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards.release.xcconfig"; path = "Target Support Files/Pods-reactNativeCards/Pods-reactNativeCards.release.xcconfig"; sourceTree = "<group>"; };
-		F419A1751C097F95923B224F /* Pods-reactNativeCards-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeCards-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeCards-tvOS/Pods-reactNativeCards-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F400DABF9F7C760F069C4EDB /* Pods-cardsWithHooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks.release.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks/Pods-cardsWithHooks.release.xcconfig"; sourceTree = "<group>"; };
+		F419A1751C097F95923B224F /* Pods-cardsWithHooks-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cardsWithHooks-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cardsWithHooks-tvOS/Pods-cardsWithHooks-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D326E7B489D23F5AF5C40E47 /* libPods-reactNativeCardsTests.a in Frameworks */,
+				D326E7B489D23F5AF5C40E47 /* libPods-cardsWithHooksTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D362BB0DAB7EFD7EC0F75D /* libPods-reactNativeCards.a in Frameworks */,
+				C3D362BB0DAB7EFD7EC0F75D /* libPods-cardsWithHooks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E7562074A2F4B57AC9DCE8 /* libPods-reactNativeCards-tvOS.a in Frameworks */,
+				34E7562074A2F4B57AC9DCE8 /* libPods-cardsWithHooks-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13514A0B6CA0D87C86CA28DC /* libPods-reactNativeCards-tvOSTests.a in Frameworks */,
+				13514A0B6CA0D87C86CA28DC /* libPods-cardsWithHooks-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* reactNativeCardsTests */ = {
+		00E356EF1AD99517003FC87E /* cardsWithHooksTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* reactNativeCardsTests.m */,
+				00E356F21AD99517003FC87E /* cardsWithHooksTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = reactNativeCardsTests;
+			path = cardsWithHooksTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* reactNativeCards */ = {
+		13B07FAE1A68108700A75B9A /* cardsWithHooks */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = reactNativeCards;
+			name = cardsWithHooks;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				8F21AF2B6A76E907FA0D51A7 /* libPods-reactNativeCards.a */,
-				E3D06DA09E83272BC7B35244 /* libPods-reactNativeCards-tvOS.a */,
-				1C13CE5F4995FD98DD71CEED /* libPods-reactNativeCards-tvOSTests.a */,
-				785F233A1E2E19C3114FEEAC /* libPods-reactNativeCardsTests.a */,
+				8F21AF2B6A76E907FA0D51A7 /* libPods-cardsWithHooks.a */,
+				E3D06DA09E83272BC7B35244 /* libPods-cardsWithHooks-tvOS.a */,
+				1C13CE5F4995FD98DD71CEED /* libPods-cardsWithHooks-tvOSTests.a */,
+				785F233A1E2E19C3114FEEAC /* libPods-cardsWithHooksTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* reactNativeCards */,
+				13B07FAE1A68108700A75B9A /* cardsWithHooks */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* reactNativeCardsTests */,
+				00E356EF1AD99517003FC87E /* cardsWithHooksTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BAB805AC3060AD5A9A66918F /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactNativeCards.app */,
-				00E356EE1AD99517003FC87E /* reactNativeCardsTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* reactNativeCards-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* reactNativeCards-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* cardsWithHooks.app */,
+				00E356EE1AD99517003FC87E /* cardsWithHooksTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* cardsWithHooks-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* cardsWithHooks-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		BAB805AC3060AD5A9A66918F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22C3C4B93942AA0F45F22B28 /* Pods-reactNativeCards.debug.xcconfig */,
-				F400DABF9F7C760F069C4EDB /* Pods-reactNativeCards.release.xcconfig */,
-				F419A1751C097F95923B224F /* Pods-reactNativeCards-tvOS.debug.xcconfig */,
-				55A18FB7B54DEB05E004CBC7 /* Pods-reactNativeCards-tvOS.release.xcconfig */,
-				5AA4D665C53629FD37208EEF /* Pods-reactNativeCards-tvOSTests.debug.xcconfig */,
-				E2E8820D3949BCF1BECAF68E /* Pods-reactNativeCards-tvOSTests.release.xcconfig */,
-				73D8A2B4AF710BEF31EA5F28 /* Pods-reactNativeCardsTests.debug.xcconfig */,
-				596974276A5FC8DF7CC81222 /* Pods-reactNativeCardsTests.release.xcconfig */,
+				22C3C4B93942AA0F45F22B28 /* Pods-cardsWithHooks.debug.xcconfig */,
+				F400DABF9F7C760F069C4EDB /* Pods-cardsWithHooks.release.xcconfig */,
+				F419A1751C097F95923B224F /* Pods-cardsWithHooks-tvOS.debug.xcconfig */,
+				55A18FB7B54DEB05E004CBC7 /* Pods-cardsWithHooks-tvOS.release.xcconfig */,
+				5AA4D665C53629FD37208EEF /* Pods-cardsWithHooks-tvOSTests.debug.xcconfig */,
+				E2E8820D3949BCF1BECAF68E /* Pods-cardsWithHooks-tvOSTests.release.xcconfig */,
+				73D8A2B4AF710BEF31EA5F28 /* Pods-cardsWithHooksTests.debug.xcconfig */,
+				596974276A5FC8DF7CC81222 /* Pods-cardsWithHooksTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* reactNativeCardsTests */ = {
+		00E356ED1AD99517003FC87E /* cardsWithHooksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactNativeCardsTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cardsWithHooksTests" */;
 			buildPhases = (
 				20E4F090748429088AED3856 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = reactNativeCardsTests;
-			productName = reactNativeCardsTests;
-			productReference = 00E356EE1AD99517003FC87E /* reactNativeCardsTests.xctest */;
+			name = cardsWithHooksTests;
+			productName = cardsWithHooksTests;
+			productReference = 00E356EE1AD99517003FC87E /* cardsWithHooksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* reactNativeCards */ = {
+		13B07F861A680F5B00A75B9A /* cardsWithHooks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactNativeCards" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cardsWithHooks" */;
 			buildPhases = (
 				ADAF1FE739A99F1E59744534 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = reactNativeCards;
-			productName = reactNativeCards;
-			productReference = 13B07F961A680F5B00A75B9A /* reactNativeCards.app */;
+			name = cardsWithHooks;
+			productName = cardsWithHooks;
+			productReference = 13B07F961A680F5B00A75B9A /* cardsWithHooks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* reactNativeCards-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* cardsWithHooks-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeCards-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cardsWithHooks-tvOS" */;
 			buildPhases = (
 				287556564A45A96DE834D017 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "reactNativeCards-tvOS";
-			productName = "reactNativeCards-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* reactNativeCards-tvOS.app */;
+			name = "cardsWithHooks-tvOS";
+			productName = "cardsWithHooks-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* cardsWithHooks-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* reactNativeCards-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* cardsWithHooks-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeCards-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cardsWithHooks-tvOSTests" */;
 			buildPhases = (
 				2DA689961864793D66F79468 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "reactNativeCards-tvOSTests";
-			productName = "reactNativeCards-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* reactNativeCards-tvOSTests.xctest */;
+			name = "cardsWithHooks-tvOSTests";
+			productName = "cardsWithHooks-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* cardsWithHooks-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeCards" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cardsWithHooks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactNativeCards */,
-				00E356ED1AD99517003FC87E /* reactNativeCardsTests */,
-				2D02E47A1E0B4A5D006451C7 /* reactNativeCards-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* reactNativeCards-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* cardsWithHooks */,
+				00E356ED1AD99517003FC87E /* cardsWithHooksTests */,
+				2D02E47A1E0B4A5D006451C7 /* cardsWithHooks-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* cardsWithHooks-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeCardsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cardsWithHooksTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +410,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeCards-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cardsWithHooks-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeCards-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cardsWithHooks-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeCards-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cardsWithHooks-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* reactNativeCardsTests.m in Sources */,
+				00E356F31AD99517003FC87E /* cardsWithHooksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* reactNativeCardsTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* cardsWithHooksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* reactNativeCards */;
+			target = 13B07F861A680F5B00A75B9A /* cardsWithHooks */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* reactNativeCards-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* cardsWithHooks-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = reactNativeCards;
+			path = cardsWithHooks;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73D8A2B4AF710BEF31EA5F28 /* Pods-reactNativeCardsTests.debug.xcconfig */;
+			baseConfigurationReference = 73D8A2B4AF710BEF31EA5F28 /* Pods-cardsWithHooksTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = reactNativeCardsTests/Info.plist;
+				INFOPLIST_FILE = cardsWithHooksTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeCards.app/reactNativeCards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardsWithHooks.app/cardsWithHooks";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 596974276A5FC8DF7CC81222 /* Pods-reactNativeCardsTests.release.xcconfig */;
+			baseConfigurationReference = 596974276A5FC8DF7CC81222 /* Pods-cardsWithHooksTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = reactNativeCardsTests/Info.plist;
+				INFOPLIST_FILE = cardsWithHooksTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeCards.app/reactNativeCards";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardsWithHooks.app/cardsWithHooks";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22C3C4B93942AA0F45F22B28 /* Pods-reactNativeCards.debug.xcconfig */;
+			baseConfigurationReference = 22C3C4B93942AA0F45F22B28 /* Pods-cardsWithHooks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = reactNativeCards/Info.plist;
+				INFOPLIST_FILE = cardsWithHooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeCards;
+				PRODUCT_NAME = cardsWithHooks;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F400DABF9F7C760F069C4EDB /* Pods-reactNativeCards.release.xcconfig */;
+			baseConfigurationReference = F400DABF9F7C760F069C4EDB /* Pods-cardsWithHooks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = reactNativeCards/Info.plist;
+				INFOPLIST_FILE = cardsWithHooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeCards;
+				PRODUCT_NAME = cardsWithHooks;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F419A1751C097F95923B224F /* Pods-reactNativeCards-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F419A1751C097F95923B224F /* Pods-cardsWithHooks-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeCards-tvOS/Info.plist";
+				INFOPLIST_FILE = "cardsWithHooks-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactNativeCards-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cardsWithHooks-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55A18FB7B54DEB05E004CBC7 /* Pods-reactNativeCards-tvOS.release.xcconfig */;
+			baseConfigurationReference = 55A18FB7B54DEB05E004CBC7 /* Pods-cardsWithHooks-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeCards-tvOS/Info.plist";
+				INFOPLIST_FILE = "cardsWithHooks-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactNativeCards-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cardsWithHooks-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA4D665C53629FD37208EEF /* Pods-reactNativeCards-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5AA4D665C53629FD37208EEF /* Pods-cardsWithHooks-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeCards-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "cardsWithHooks-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactNativeCards-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cardsWithHooks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeCards-tvOS.app/reactNativeCards-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardsWithHooks-tvOS.app/cardsWithHooks-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2E8820D3949BCF1BECAF68E /* Pods-reactNativeCards-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E2E8820D3949BCF1BECAF68E /* Pods-cardsWithHooks-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeCards-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "cardsWithHooks-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactNativeCards-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.cardsWithHooks-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeCards-tvOS.app/reactNativeCards-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardsWithHooks-tvOS.app/cardsWithHooks-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactNativeCardsTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cardsWithHooksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactNativeCards" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cardsWithHooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeCards-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cardsWithHooks-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeCards-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cardsWithHooks-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeCards" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cardsWithHooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

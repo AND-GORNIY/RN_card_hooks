@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "reactNativeCards-tvOS.app"
-               BlueprintName = "reactNativeCards-tvOS"
-               ReferencedContainer = "container:reactNativeCards.xcodeproj">
+               BuildableName = "cardsWithHooks-tvOS.app"
+               BlueprintName = "cardsWithHooks-tvOS"
+               ReferencedContainer = "container:cardsWithHooks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactNativeCards-tvOSTests.xctest"
-               BlueprintName = "reactNativeCards-tvOSTests"
-               ReferencedContainer = "container:reactNativeCards.xcodeproj">
+               BuildableName = "cardsWithHooks-tvOSTests.xctest"
+               BlueprintName = "cardsWithHooks-tvOSTests"
+               ReferencedContainer = "container:cardsWithHooks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "reactNativeCards-tvOSTests.xctest"
-               BlueprintName = "reactNativeCards-tvOSTests"
-               ReferencedContainer = "container:reactNativeCards.xcodeproj">
+               BuildableName = "cardsWithHooks-tvOSTests.xctest"
+               BlueprintName = "cardsWithHooks-tvOSTests"
+               ReferencedContainer = "container:cardsWithHooks.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeCards-tvOS.app"
-            BlueprintName = "reactNativeCards-tvOS"
-            ReferencedContainer = "container:reactNativeCards.xcodeproj">
+            BuildableName = "cardsWithHooks-tvOS.app"
+            BlueprintName = "cardsWithHooks-tvOS"
+            ReferencedContainer = "container:cardsWithHooks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeCards-tvOS.app"
-            BlueprintName = "reactNativeCards-tvOS"
-            ReferencedContainer = "container:reactNativeCards.xcodeproj">
+            BuildableName = "cardsWithHooks-tvOS.app"
+            BlueprintName = "cardsWithHooks-tvOS"
+            ReferencedContainer = "container:cardsWithHooks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "reactNativeCards-tvOS.app"
-            BlueprintName = "reactNativeCards-tvOS"
-            ReferencedContainer = "container:reactNativeCards.xcodeproj">
+            BuildableName = "cardsWithHooks-tvOS.app"
+            BlueprintName = "cardsWithHooks-tvOS"
+            ReferencedContainer = "container:cardsWithHooks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

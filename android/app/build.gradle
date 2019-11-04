@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.reactnativecards"
+        applicationId "com.cardswithhooks"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

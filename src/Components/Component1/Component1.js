@@ -9,7 +9,9 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import Component3Container from '../Component3';
-
+import {connect} from 'react-redux';
+import {submCreditCard} from '../../actions/submCreditCard';
+import {useCardInfo} from './useCardInfo';
 type Props = {
   validationFields: {
     cardNumberValid: boolean,
@@ -30,8 +32,8 @@ const Component1 = ({
   animateSpiner,
   editableForm,
   disabledButtom,
-  onSubmit,
-  setInfoLocal,
+  // eslint-disable-next-line no-shadow
+  submCreditCard,
 }: Props) => {
   const {
     cardNumberValid,
@@ -40,6 +42,8 @@ const Component1 = ({
     firstNameValid,
     lastNameValid,
   } = validationFields;
+
+  const {setInfoLocal, onSubmit} = useCardInfo(submCreditCard);
 
   return (
     <SafeAreaView style={styles.FormContainer}>
@@ -130,7 +134,27 @@ const Component1 = ({
   );
 };
 
-export default Component1;
+const mapStateToProps = store => {
+  return {
+    validationFields: store.userInfo.validationFields,
+    animateSpiner: store.userInfo.animateSpiner,
+    editableForm: store.userInfo.editableForm,
+    disabledButtom: store.userInfo.disabledButtom,
+  };
+};
+
+const mapDispatchToprops = dispatch => {
+  return {
+    submCreditCard: userInfo => dispatch(submCreditCard(userInfo)),
+  };
+};
+
+const Component1Container = connect(
+  mapStateToProps,
+  mapDispatchToprops,
+)(Component1);
+
+export default Component1Container;
 
 const styles = StyleSheet.create({
   FormContainer: {

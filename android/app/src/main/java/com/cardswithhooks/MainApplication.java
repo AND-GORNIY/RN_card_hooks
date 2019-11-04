@@ -1,4 +1,4 @@
-package com.reactnativecards;
+package com.cardswithhooks;
 
 import android.app.Application;
 import android.content.Context;
