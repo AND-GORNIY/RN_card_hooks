@@ -12,6 +12,7 @@ import Component3Container from '../Component3';
 import {connect} from 'react-redux';
 import {submCreditCard} from '../../actions/submCreditCard';
 import {useCardInfo} from './useCardInfo';
+
 type Props = {
   validationFields: {
     cardNumberValid: boolean,
